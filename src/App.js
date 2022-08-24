@@ -10,12 +10,12 @@ const cardImages = [
   // { "src": "/img/scroll-1.png", matched: false},
   // { "src": "/img/shield-1.png", matched: false},
   // { "src": "/img/sword-1.png", matched: false}
-  { "src": "./Magic_Memory_Game/img/angree1.jpg", matched: false},
-  { "src": "./Magic_Memory_Game/img/angree2.jpg", matched: false},
-  { "src": "./Magic_Memory_Game/img/angree3.jpg", matched: false},
-  { "src": "./Magic_Memory_Game/img/angree4.jpg", matched: false},
-  { "src": "./Magic_Memory_Game/img/angree5.jpg", matched: false},
-  { "src": "./Magic_Memory_Game/img/angree6.jpg", matched: false}
+  { "src": "Magic_Memory_Game/img/angree1.jpg", matched: false},
+  { "src": "Magic_Memory_Game/img/angree2.jpg", matched: false},
+  { "src": "Magic_Memory_Game/img/angree3.jpg", matched: false},
+  { "src": "Magic_Memory_Game/img/angree4.jpg", matched: false},
+  { "src": "Magic_Memory_Game/img/angree5.jpg", matched: false},
+  { "src": "Magic_Memory_Game/img/angree6.jpg", matched: false}
 ]
 
 function App() {
