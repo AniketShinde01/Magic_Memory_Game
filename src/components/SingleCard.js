@@ -1,5 +1,6 @@
 import './SingleCard.css'
 
+
 export default function SingleCard( { card, handleChoice, flipped, disabled } ) {
 
     const handleClick = () => {
@@ -16,7 +17,7 @@ export default function SingleCard( { card, handleChoice, flipped, disabled } ) 
               <img 
                 className="back" 
                 // src="/img/cover.png" 
-                src="/img/cover2.jpg" 
+                src="./Magic_Memory_Game/img/cover2.jpg" 
                 onClick={handleClick} 
                 alt="card back" 
               />

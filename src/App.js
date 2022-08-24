@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react'
 import SingleCard from './components/SingleCard';
 
+
 const cardImages = [
   // { "src": "/img/helmet-1.png", matched: false},
   // { "src": "/img/potion-1.png", matched: false},
@@ -9,14 +10,13 @@ const cardImages = [
   // { "src": "/img/scroll-1.png", matched: false},
   // { "src": "/img/shield-1.png", matched: false},
   // { "src": "/img/sword-1.png", matched: false}
-  { "src": "/img/angree1.jpg", matched: false},
-  { "src": "/img/angree2.jpg", matched: false},
-  { "src": "/img/angree3.jpg", matched: false},
-  { "src": "/img/angree4.jpg", matched: false},
-  { "src": "/img/angree5.jpg", matched: false},
-  { "src": "/img/angree6.jpg", matched: false}
+  { "src": "./Magic_Memory_Game/img/angree1.jpg", matched: false},
+  { "src": "./Magic_Memory_Game/img/angree2.jpg", matched: false},
+  { "src": "./Magic_Memory_Game/img/angree3.jpg", matched: false},
+  { "src": "./Magic_Memory_Game/img/angree4.jpg", matched: false},
+  { "src": "./Magic_Memory_Game/img/angree5.jpg", matched: false},
+  { "src": "./Magic_Memory_Game/img/angree6.jpg", matched: false}
 ]
-
 
 function App() {
 
