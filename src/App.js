@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react'
 import SingleCard from './components/SingleCard';
+import {Helmet} from 'react-helmet'
 
 
 const cardImages = [
@@ -81,6 +82,11 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>Magic Memory Game</title>
+        <meta name="description" content="App Description" />
+        <meta name="theme-color" content="#008f68" />
+      </Helmet>
       <h1>Magic Memory</h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
